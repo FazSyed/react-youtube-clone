@@ -1,0 +1,58 @@
+.sidebar {
+    /* flex takes value from 0 to 1 */
+    flex: 0.2; 
+    /* background-color: aqua; */
+
+    max-height: 88vh;
+    overflow-y: auto; /* This makes the sidebar scrollable */
+    padding-right: 10px; 
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 0; 
+}
+
+.sidebar:hover::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar:hover::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+  
+.sidebar:hover::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 10px;
+}
+
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar__you {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-left: 25px;
+}
+
+.sidebar__you p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sidebar__rightArrow {
+    font-size: 25x;
+    margin-left: 10px;
+}
+
+.sidebar__subscriptionTitle {
+    margin: 10px;
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
