@@ -20,10 +20,6 @@
     align-items: center;
 }
 
-.header__menu {
-    font-size: 30px;
-}
-
 .header__input {
     display: flex;
     align-items: center;
@@ -36,9 +32,10 @@
     flex: 1;
     border: none;
     border-radius: 20px;
-    margin-left: 10px;
-    padding: 7px;
+    padding: 10px;
     font-size: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .header__inputButton {
@@ -47,12 +44,13 @@
     border-left: 1px solid lightgray;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    font-size: 30px;
+    font-size: 37px !important;
 }
 
 .header__icons {
     display: flex;
     align-items: center;
+    color: black;
 }
 
 .header__icon:nth-child(1), 
@@ -62,4 +60,13 @@
 
 .header__icon {
     margin-right: 15px;
+}
+
+.header__menu:hover,
+.header__icon:nth-child(1):hover, 
+.header__icon:nth-child(2):hover {
+    background-color: #e1e1e1;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
 }
