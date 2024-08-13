@@ -44,7 +44,7 @@ const Sidebar = () => {
         src="https://yt3.googleusercontent.com/ytc/AIdro_kotL-OQVXsay2vKRujBvNWcY47UZUwC-axNozc8Mzdutk=s160-c-k-c0x00ffffff-no-rj"
       />
       <SidebarRow
-        title="Network Chuck"
+        title="NetworkChuck"
         src="https://yt3.googleusercontent.com/ytc/AIdro_mSw0rri2VsHv7XyXcMv931baO8QUfqIMFEGHx-7xumLG0=s160-c-k-c0x00ffffff-no-rj"
       />
       <SidebarRow
