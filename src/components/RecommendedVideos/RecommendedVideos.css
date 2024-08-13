@@ -1,6 +1,31 @@
-.recommendedVideos {
+.recommended {
     /* flex takes value from 0 to 1 */
     flex: 0.8;
-    /* background-color: blueviolet; */
-    border: 1px solid black;
 }
+
+.recommendedVideos {
+    padding: 40px 20px;
+    padding-bottom: 0;
+    /* background-color: blueviolet; */
+}
+
+.recommendedVideos__videos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 16px;
+    padding: 7px;
+}
+
+/* Using Media-Queries instead of flexbox for responsiveness */
+@media (max-width: 1200px) {
+    .recommendedVideos__videos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .recommendedVideos__videos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
