@@ -6,17 +6,26 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 const VideoHeader = () => {
   return (
     <div className="videoHeader">
-      <VideoHeaderElement selected title="All" />
-      <VideoHeaderElement title="Javascript" />
-      <VideoHeaderElement title="React" />
-      <VideoHeaderElement title="CSS" />
-      <VideoHeaderElement title="Skills" />
-      <VideoHeaderElement title="Gadgets" />
-      <VideoHeaderElement title="Podcasts" />
-      <VideoHeaderElement title="Music" />
-      <VideoHeaderElement title="Lofi" />
-      <VideoHeaderElement title="TED" />
-      <VideoHeaderElement Icon={ArrowForwardIosIcon} />
+      <VideoHeaderElement
+        className="videoHeader__element"
+        selected
+        title="All"
+      />
+      <VideoHeaderElement className="videoHeader__element" title="Javascript" />
+      <VideoHeaderElement className="videoHeader__element" title="React" />
+      <VideoHeaderElement className="videoHeader__element" title="HTML" />
+      <VideoHeaderElement className="videoHeader__element" title="CSS" />
+      <VideoHeaderElement className="videoHeader__element" title="Spline" />
+      <VideoHeaderElement className="videoHeader__element" title="Skills" />
+      <VideoHeaderElement className="videoHeader__element" title="Gadgets" />
+      <VideoHeaderElement className="videoHeader__element" title="Podcasts" />
+      <VideoHeaderElement className="videoHeader__element" title="Music" />
+      <VideoHeaderElement className="videoHeader__element" title="Lofi" />
+      <VideoHeaderElement className="videoHeader__element" title="TED" />
+      <VideoHeaderElement
+        className="videoHeader__element"
+        Icon={ArrowForwardIosIcon}
+      />
     </div>
   );
 };
