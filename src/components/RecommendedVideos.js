@@ -1,10 +1,41 @@
 import React from "react";
 import "./RecommendedVideos.css";
+import VideoHeader from "./VideoHeader";
 
 const RecommendedVideos = () => {
   return (
     <div className="recommendedVideos">
-      <h1>This is where RecommendedVideos go</h1>
+      <VideoHeader />
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
+      <h2>Video</h2>
     </div>
   );
 };
