@@ -65,6 +65,8 @@ const Sidebar = () => {
         src="https://yt3.googleusercontent.com/ytc/AIdro_mLysKc36lc_FVk2j777olWvLOjgDz6NCNGdiQBnAKRENM=s160-c-k-c0x00ffffff-no-rj"
       />
       <SidebarRow title="Show More" Icon={ExpandMoreIcon} />
+
+      <hr />
     </div>
   );
 };
