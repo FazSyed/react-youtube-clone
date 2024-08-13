@@ -1,6 +1,6 @@
 import React from "react";
 import "./RecommendedVideos.css";
-import VideoHeader from "./VideoHeader";
+import VideoHeader from "../VideoHeader/VideoHeader";
 
 const RecommendedVideos = () => {
   return (
