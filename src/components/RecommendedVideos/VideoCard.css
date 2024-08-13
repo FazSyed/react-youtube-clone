@@ -12,7 +12,7 @@
 .videoCard__info {
     display: flex;
     margin-top: 10px;
-    padding-right: 30px;
+    /* padding-right: 30px; */
 }
 
 .videoCard__text {
