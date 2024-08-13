@@ -1,4 +1,18 @@
 .videoHeader {
     display: flex;
     justify-content: space-around;
+    /* background-color: aquamarine; */
+    flex-wrap: nowrap;
+    padding: 0 13px;
+}
+
+@media (max-width: 768px) {
+    .videoHeader__element {
+        display: none;
+    }
+
+    /* Optionally, keep the ArrowForwardIosIcon visible */
+    .videoHeader__element:last-child {
+        display: flex;
+    }
 }
