@@ -10,8 +10,8 @@ import PlaylistPlayIcon from "@mui/icons-material/PlaylistPlay";
 import SlideshowOutlinedIcon from "@mui/icons-material/SlideshowOutlined";
 import WatchLaterOutlinedIcon from "@mui/icons-material/WatchLaterOutlined";
 import ThumbUpOutlinedIcon from "@mui/icons-material/ThumbUpOutlined";
-import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const Sidebar = () => {
   return (
@@ -23,10 +23,7 @@ const Sidebar = () => {
 
       <hr />
 
-      <div className="sidebar__you">
-        <p>You</p>
-        <KeyboardArrowRightIcon className="sidebar__rightArrow" />
-      </div>
+      <SidebarRow title="You" Icon={ArrowForwardIosIcon} />
 
       <SidebarRow title="Your Channel" Icon={PortraitIcon} />
       <SidebarRow title="History" Icon={HistoryIcon} />
