@@ -10,7 +10,7 @@ const App = () => {
     <div className="app">
       <Header />
 
-      <div className="app_page">
+      <div className="app__page">
         <Sidebar />
         <RecommendedVideos />
       </div>
