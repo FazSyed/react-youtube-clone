@@ -1,0 +1,42 @@
+.videoHeaderElement {
+    padding: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.videoHeaderElement > p {
+    background-color: #F0F0F0;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 15px;
+    border-radius: 8px;
+
+    transition: 0.1s ease-in-out;
+}
+
+.videoHeaderElement__icon {
+    background: none;
+    color: #606060;
+    font-size: medium !important;
+
+    transition: 0.3s ease-in-out;
+}
+
+.videoHeaderElement__icon:hover {
+    background-color: #e1e1e1;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.videoHeaderElement .selected {
+    background-color: black;
+    color: #F0F0F0;
+}
+
+.videoHeaderElement:hover > p:not(.selected) {
+    background-color: #e1e1e1;
+}
+
+.videoHeaderElement:hover > p {
+    cursor: pointer;
+}
