@@ -5,14 +5,14 @@
     margin: 0 15px;
 }
 
+.sidebarRow__avatar {
+    height: 25px !important;
+    width: 25px !important;
+}
+
 .sidebarRow__icon {
     color: #606060;
     font-size: larger !important;
-}
-
-.sidebarRow__avatar {
-    height: 25px;
-    width: 25px;
 }
 
 .sidebarRow__title {
@@ -21,13 +21,25 @@
     font-size: 15px;
 }
 
+.sidebarRow__titleYou {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sidebarRow__iconYou {
+    margin-left: 8px;
+    color: #606060;
+    font-size: small !important;
+}
+
 .sidebarRow:hover {
     background: #F0F0F0;
     cursor: pointer;
     border-radius: 13px;
 }
 
-.sidebarRow:hover > .sidebarRow__icon {
+.sidebarRow:hover > .sidebarRow__icon,
+.sidebarRow:hover > .sidebarRow__iconYou {
     color: red;
 }
 
