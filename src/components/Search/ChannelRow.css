@@ -1,0 +1,64 @@
+.channelRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.channelRow__left {
+    flex: 0.4;
+    display: flex;
+    justify-content: center;
+}
+
+.channelRow__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.6;
+}
+
+.channelRow__text {
+    max-width: 450px;
+    font-size: 13px;
+}
+
+.channelRow__text > h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px;
+    display: flex;
+}
+
+.channelRow__verified {
+    color: #616161;
+    width: 15px !important;
+    height: 15px !important;
+    margin: 5px;
+}
+
+.channelRow__text > p {
+    margin: 8px 10px;
+    color: #656360;
+    font-size: 12px;
+}
+
+.channelRow__subscribe > button {
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.channelRow__subscribe > button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+} 
+
+.channelRow__logo {
+    width: 140px !important;
+    height: 140px  !important;
+}
