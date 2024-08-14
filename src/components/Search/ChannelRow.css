@@ -51,6 +51,8 @@
     padding: 10px 15px;
     font-size: 15px;
     font-weight: 500;
+    display: flex;
+    align-items: center;
 }
 
 .channelRow__subscribe > button:hover {
@@ -61,4 +63,19 @@
 .channelRow__logo {
     width: 140px !important;
     height: 140px  !important;
+}
+
+.channelRow__subscribe > button.subscribed {
+    background-color: #F0F0F0;
+    color: black;
+}
+
+.channelRow__subscribe > button.subscribed > h4 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 4px;
+}
+
+.channelRow__subscribe > button.subscribed:hover {
+    background-color: #E6E6E6;
 }
