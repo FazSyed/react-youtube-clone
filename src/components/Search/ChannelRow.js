@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./ChannelRow.css";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
