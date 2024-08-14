@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./ChannelRow.css";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Avatar } from "@mui/material";
 
 const ChannelRow = ({
@@ -11,6 +13,12 @@ const ChannelRow = ({
   username,
   description,
 }) => {
+  const [isSubscribed, setIsSubscribed] = useState(false);
+
+  const handleSubscribeClick = () => {
+    setIsSubscribed(!isSubscribed);
+  };
+
   return (
     <div className="channelRow">
       <div className="channelRow__left">
@@ -30,7 +38,19 @@ const ChannelRow = ({
         </div>
 
         <div className="channelRow__subscribe">
-          <button>Subscribe</button>
+          <button
+            className={isSubscribed ? "subscribed" : ""}
+            onClick={handleSubscribeClick}
+          >
+            {isSubscribed ? (
+              <>
+                <NotificationsOutlinedIcon /> <h4>Subscribed</h4>{" "}
+                <ExpandMoreIcon />{" "}
+              </>
+            ) : (
+              "Subscribe"
+            )}
+          </button>
         </div>
       </div>
     </div>
